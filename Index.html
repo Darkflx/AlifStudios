@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALIF STUDIO</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: #f7f4ef;
+      color: #000;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .logo {
+      max-width: 280px;
+      margin-bottom: 30px;
+      animation: logoFloat 3s ease-in-out infinite;
+    }
+
+    .quote {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .coming {
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin-bottom: 25px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #000;
+      font-size: 13px;
+      margin: 0 10px;
+      border-bottom: 1px solid transparent;
+    }
+
+    .links a:hover {
+      border-bottom: 1px solid #000;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes logoFloat {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="logo.png" alt="ALIF STUDIO Logo" class="logo">
+
+    <div class="quote">
+      ISLAMIC STUDIO<br>
+      SO REMEMBER ME; I WILL REMEMBER YOU.
+    </div>
+
+    <div class="coming">
+      COMING SOON
+    </div>
+
+    <div class="links">
+      <a href="shop.html">SHOP</a>
+      <a href="https://instagram.com/YOURINSTAGRAM" target="_blank">INSTAGRAM</a>
+    </div>
+  </div>
+
+</body>
+</html>
